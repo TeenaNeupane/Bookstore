@@ -1,0 +1,78 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  background: url('https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260') no-repeat center center/cover;
+  color: white;
+}
+
+/* Heading with animation */
+.home-container h1 {
+  font-family: cursive;
+  font-style: italic;
+  font-size: 42px;
+  margin-bottom: 10px;
+  color: #ffeb3b;
+  animation: fadeInDown 2s ease-out;
+}
+
+@keyframes fadeInDown {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Paragraph */
+.home-container p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+/* Book Cards Grid */
+.book-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* Individual Card */
+.book-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  padding: 12px;
+  width: 180px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+}
+
+.book-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.book-card h3 {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #fff;
+}

@@ -1,0 +1,19 @@
+.recommendation-results {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .recommendation-results ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recommendation-results li {
+    background: #f1f1f1;
+    margin: 10px auto;
+    padding: 12px;
+    border-radius: 8px;
+    width: 60%;
+    font-size: 18px;
+  }
+  

@@ -1,0 +1,19 @@
+
+.recommendation-page {
+  text-align: center;
+  padding: 30px;
+}
+
+.recommend-btn {
+  padding: 10px 20px;
+  background-color: #5c67f2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.recommend-btn:hover {
+  background-color: #434be0;
+}
